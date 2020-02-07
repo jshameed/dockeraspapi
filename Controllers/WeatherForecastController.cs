@@ -35,5 +35,11 @@ namespace dockeraspapi.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        public string Check()
+        {
+            return "it is working fine";
+        }
     }
 }
