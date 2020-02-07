@@ -37,6 +37,7 @@ namespace dockeraspapi.Controllers
         }
 
         [HttpGet]
+        [Route("check")]
         public string Check()
         {
             return "it is working fine";
